@@ -18,4 +18,5 @@ jobs:
           test -f README.md
           test -f app/index.html
           test -f app/server-health.sh
+          test -f app/nonexistent.txt
           echo "All required files exist!"
