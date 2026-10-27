@@ -13,3 +13,11 @@ My personal DevOps learning project.
 ## Goal
 
 Learn DevOps engineering through hands-on practice.
+
+## Current Progress
+
+- [x] Linux basics
+- [x] Git repository initialization
+- [ ] Docker
+- [ ] CI/CD
+- [ ] Kubernetes
