@@ -21,3 +21,10 @@ Learn DevOps engineering through hands-on practice.
 - [ ] Docker
 - [ ] CI/CD
 - [ ] Kubernetes
+
+
+## Project Structure
+
+- app/ - Application files and scripts
+- README.md - Project documentation
+- .gitignore - Git ignore rules
