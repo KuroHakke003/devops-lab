@@ -28,3 +28,8 @@ Learn DevOps engineering through hands-on practice.
 - app/ - Application files and scripts
 - README.md - Project documentation
 - .gitignore - Git ignore rules
+
+
+## Repository
+
+This project is hosted on GitHub and maintained using Git.
