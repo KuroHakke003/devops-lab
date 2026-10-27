@@ -33,3 +33,13 @@ Learn DevOps engineering through hands-on practice.
 ## Repository
 
 This project is hosted on GitHub and maintained using Git.
+
+
+
+## Git Workflow
+
+1. Create a feature branch.
+2. Make changes and commit them.
+3. Push the branch to GitHub.
+4. Open a Pull Request.
+5. Review and merge changes.
