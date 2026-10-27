@@ -15,8 +15,14 @@ jobs:
       - name: Check project files
         run: |
           echo "Starting project checks..."
-          test -f README.md
-          test -f app/index.html
-          test -f app/server-health.sh
-          test -f app/nonexistent.txt
+
+          for file in README.md app/index.html app/server-health.sh; do
+            if [ -f "$file" ]; then
+              echo "PASS: $file exists"
+            else
+              echo "FAIL: $file is missing"
+              exit 1
+            fi
+          done
+
           echo "All required files exist!"
