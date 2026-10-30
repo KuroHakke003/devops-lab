@@ -26,3 +26,12 @@ jobs:
           done
 
           echo "All required files exist!"
+
+      - name: Check Bash syntax
+        run: bash -n app/server-health.sh
+
+      - name: Run ShellCheck
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y shellcheck
+          shellcheck app/server-health.sh
